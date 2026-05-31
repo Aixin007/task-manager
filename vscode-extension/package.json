@@ -1,0 +1,15 @@
+{
+  "name": "taskflow-tracker",
+  "displayName": "TaskFlow Tracker",
+  "description": "Auto-track file progress for TaskFlow tasks",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.60.0" },
+  "activationEvents": ["onCommand:taskflow.linkFolder"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "taskflow.linkFolder",
+      "title": "TaskFlow: Link folder to task"
+    }]
+  }
+}
