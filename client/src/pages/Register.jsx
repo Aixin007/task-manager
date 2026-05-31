@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:8000/api'
+const API = 'https://task-manager-33pj.onrender.com/api'
 
 export default function Register() {
   const [email, setEmail] = useState('')
