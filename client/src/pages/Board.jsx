@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import ChatBot from '../components/ChatBot'
 
-const API = 'http://localhost:8000/api'
+const API = 'https://task-manager-33pj.onrender.com/api'
 const getHeaders = () => ({ Authorization: `Bearer ${localStorage.getItem('token')}`, 'Content-Type': 'application/json' })
 
 const STAGES = ['Todo', 'In Progress', 'Done']
